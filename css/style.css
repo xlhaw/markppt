@@ -553,3 +553,9 @@ pre {
 .mermaid > p {
   margin-bottom: 0px;
 }
+
+.justify {
+  text-align-last:justify; 
+  text-align:justify; 
+  text-justify:distribute-all-lines;
+}

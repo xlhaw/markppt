@@ -249,8 +249,8 @@ h1, h2, h3, h4, h5, h6 {
 /* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
 .typo h1, .typo h2, .typo h3, .typo h4, .typo h5, .typo h6,
 .typo-h1, .typo-h2, .typo-h3, .typo-h4, .typo-h5, .typo-h6 {
-  margin-top: 1.2em;
-  margin-bottom: 0.6em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   line-height: 1.35;
 }
 
@@ -276,18 +276,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 在文章中，应该还原 ul 和 ol 的样式 */
 .typo ul, .typo-ul {
-  margin-left: 1.3em;
+  margin-left: 1em;
   list-style: disc;
 }
 
 .typo ol, .typo-ol {
   list-style: decimal;
-  margin-left: 1.9em;
+  margin-left: 1em;
 }
 
 .typo li ul, .typo li ol, .typo-ul ul, .typo-ul ol, .typo-ol ul, .typo-ol ol {
   margin-bottom: 0.8em;
-  margin-left: 2em;
+  margin-left: 1.2em;
 }
 
 .typo li ul, .typo-ul ul, .typo-ol ul {
